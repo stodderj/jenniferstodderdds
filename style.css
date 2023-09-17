@@ -127,12 +127,3 @@ p {
   }
 }
 
-@media only screen and (max-width: 992px){
-  .test {
-    width: 100%;
-  }
-    .test2 {
-    max-width: 0px;
-    position: relative
-  }
-}
