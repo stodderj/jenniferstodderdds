@@ -2,15 +2,23 @@ a {
   font-size: 20px;
 }
 
-.blog_image {
-  width: 75%;
-}
-
-
 body {
   font-color: #71706E;
   font-family: "Open Sans", arial, sans-serif;
+}
 
+h1 {
+  color: #000000;
+  font-family: "Josefin Slab", serif;
+  font-size: 60px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.blog_image {
+  width: 75%;
 }
 
 .break {
@@ -34,18 +42,12 @@ body {
 }
 
 .container_locations {
-  padding: 10vh 15vw !important;
+  padding: 10vh 0vw;
 }
 
 .footer {
   background-color: #e6f5ff;
   min-height: 25vh;
-}
-
-h1 {
-  color: #000000;
-  font-family: "Josefin Slab", serif;
-  font-size: 60px;
 }
 
 .large_text {
@@ -87,10 +89,6 @@ h1 {
   vertical-align: sub;
 }
 
-p {
-  font-size: 16px;
-}
-
 .playfair_display {
   color: #000000;
   font-family: "Playfair Display", serif;
@@ -106,7 +104,6 @@ p {
   font-size: 18px;
 }
 
-
 .square {
     position: relative;
 }
@@ -114,6 +111,28 @@ p {
 .square_img {
   width: 100%;
   height: 100%;
-  position:absolute;
+  position: absolute;
   object-fit: cover;
+}
+
+@media only screen and (min-width: 768px){
+  .padding_right {
+    padding-right: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .container_responsive {
+      padding: 10vh 15vw;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .test {
+    width: 100%;
+  }
+    .test2 {
+    max-width: 0px;
+    position: relative
+  }
 }
