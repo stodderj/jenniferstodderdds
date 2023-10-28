@@ -5,16 +5,19 @@ a {
 body {
   font-color: #71706E;
   font-family: "Open Sans", arial, sans-serif;
+  font-weight: normal;
 }
 
 h1 {
-  color: #000000;
-  font-family: "Josefin Slab", serif;
   font-size: 60px;
 }
 
 p {
   font-size: 16px;
+}
+
+.background_blue {
+  background-color: #e6f5ff;
 }
 
 .blog_image {
@@ -41,22 +44,51 @@ p {
   margin: 4vh 10vw;
 }
 
-.container_locations {
-  padding: 10vh 0vw;
+.font_18 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.font_24 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.font_30 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.font_40 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.font_60 {
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.font_josefin_slab {
+  color: #000000;
+  font-family: "Josefin Slab", serif;
+}
+
+.font_marck_script {
+  color: #000000;
+  font-family: "Marck Script", serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.font_playfair_display {
+  color: #000000;
+  font-family: "Playfair Display", serif;
 }
 
 .footer {
   background-color: #e6f5ff;
   min-height: 25vh;
-}
-
-.large_text {
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.location_text {
-  font-size: 30px;
 }
 
 .link {
@@ -68,40 +100,12 @@ p {
   color: #000000;
 }
 
-.locations_background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.25)) , url("images/locations.jpg");
-  background-position: right center;
-  background-size: cover;
-}
-
 .nav-link { 
   font-size: 22px !important;
 }
 
-.marck_script {
-  color: #000000;
-  font-family: "Marck Script", serif;
-  font-size: 60px;
-  text-align: center;
-}
-
 .material-symbols-outlined {
   vertical-align: sub;
-}
-
-.playfair_display {
-  color: #000000;
-  font-family: "Playfair Display", serif;
-  font-size: 40px;
-}
-
-.qwitcher_grypen {
-  font-family: 'Qwitcher Grypen', cursive;
-  font-size: 40px;
-}
-
-.small_text {
-  font-size: 18px;
 }
 
 .square {
@@ -118,12 +122,6 @@ p {
 @media only screen and (min-width: 768px){
   .padding_right {
     padding-right: 14px;
-  }
-}
-
-@media only screen and (min-width: 768px){
-  .container_responsive {
-      padding: 10vh 15vw;
   }
 }
 
